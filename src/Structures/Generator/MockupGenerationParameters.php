@@ -35,6 +35,8 @@ class MockupGenerationParameters
      */
     public $format = self::FORMAT_JPG;
 
+    public $width = 1000;
+
     /**
      * List of options to generate (Front, Back, etc)
      * If not provided, everything is generated.
